@@ -1,13 +1,21 @@
 
+
+
+// fn templeOrdelate(){
+
+// }
+
 fn main() {
-    // println!("Hello, world!");
+   orderofabulle()
+}
+
+
+
+fn orderofabulle() {
+
 
        let mut list:[i32;6] = [8, 4, 3, 2, 5,7];
-
-      
-
        for i in 0..list.len(){
-
          for j in 0..list.len(){
 
             let b :i32 = list[i];
@@ -27,4 +35,5 @@ fn main() {
     println!("{}", list[y])
 
   }
+    
 }
