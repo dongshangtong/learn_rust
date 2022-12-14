@@ -1,4 +1,7 @@
 use std::collections::HashMap;
+use std::time::{systime};
+
+
 
 fn main() {
    
@@ -27,4 +30,8 @@ fn main() {
             None => println!("alice not found"),
 
     }
+
+    let now = systime::new();
+    let timestamp = now.duration_since(systime::UNIX_EPOCH);
+
 }
