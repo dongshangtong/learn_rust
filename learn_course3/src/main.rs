@@ -43,7 +43,9 @@ fn main() {
 
     // test_coures8();
 
-    test_coures9();
+    // test_coures9();
+
+    test_coures10();
 }
 
 fn test_coures1() {
@@ -144,4 +146,12 @@ fn test_coures9() {
 
     println!("KxKKK:{}", x);
     println!("KyKKK:{}", y);
+}
+
+fn test_coures10() {
+  
+    let guess = "42".parse::<i32>().expect("Not a number!");
+
+    println!("KKKKKK:{:?}",guess);
+
 }
